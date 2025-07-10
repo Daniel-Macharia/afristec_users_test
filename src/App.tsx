@@ -1,12 +1,8 @@
-import DataTable from 'react-data-table-component';
 import './App.css'
 import type { User } from './models';
 import { fetchUsers } from './service/user_service';
 import { useEffect, useRef, useState } from 'react';
 
-
-import * as Yup from "yup";
-import { Field, Form, Formik } from 'formik';
 import UserDetails from './user_details';
 
 function App() {
